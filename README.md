@@ -13,6 +13,10 @@
 ## Objetivo
 Practicar branching, fork, pull request y merge.
 
+___
+
+##Alumno 1 (Natasha Cruz)
+
 ## Tema investigado  
 Ramas (Branch) en Git  
 
@@ -39,6 +43,8 @@ Cada uno trabaja sin afectar el proyecto principal y luego integran los cambios 
 
 ## Conclusión personal  
 Las ramas en Git son fundamentales para trabajar de forma ordenada y segura, especialmente en equipo, ya que permiten evitar errores en la versión principal y facilitan la colaboración.
+
+##Alumno 2 (Felipe Segovia)
 
 ### ¿Qué es una Branch (Rama)?
 Es una **línea de desarrollo independiente** dentro de un mismo proyecto. 
