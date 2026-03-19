@@ -13,29 +13,15 @@
 ## Objetivo
 Practicar branching, fork, pull request y merge.
 
-## Tema investigado  
-Ramas (Branch) en Git  
+### ¿Qué es una Branch (Rama)?
+Es una **línea de desarrollo independiente** dentro de un mismo proyecto. 
+Imagina que tu proyecto es el tronco de un árbol (la rama principal, usualmente llamada `main` o `master`). Cuando creas una *branch*, estás haciendo crecer una rama lateral. 
+Te permite trabajar en nuevas funciones, corregir errores o experimentar con total seguridad, ya que nada de lo que hagas en esta rama alterará o romperá el código principal del tronco.
 
-## Definición  
-Una rama en Git es una línea de desarrollo independiente que permite trabajar en cambios, nuevas funciones o correcciones sin afectar la versión principal del proyecto (main).
+### ¿Qué es un Fork (Bifurcación)?
+Es una **copia exacta, personal e independiente** de un proyecto *ajeno*. 
+Al hacer un *fork*, agarras el repositorio de otra persona o equipo y te llevas un "clon" directamente a tu propia cuenta.  
+Te permite experimentar y realizar cambios libremente en un código que no es tuyo, sin afectar el proyecto original y sin necesitar que sus creadores te den permisos de edición.
 
-## Respuestas  
-1. **¿Qué es una rama en Git?**  
-Es una copia del proyecto donde se pueden hacer cambios de forma aislada sin modificar el código principal.
-
-2. **¿Por qué las ramas ayudan a ordenar el trabajo?**  
-Porque permiten separar tareas, trabajar en paralelo y organizar mejor el desarrollo sin mezclar cambios.
-
-3. **¿Qué riesgo existe si todos trabajan en main?**  
-Se pueden generar conflictos, errores en el sistema, pérdida de información y dificultad para identificar cambios.
-
-## Ejemplo  
-Un equipo está desarrollando una página web:  
-- En la rama **main** está la versión estable  
-- Una persona crea una rama llamada *login* para el sistema de inicio de sesión  
-- Otra crea una rama *diseño* para cambiar la apariencia  
-
-Cada uno trabaja sin afectar el proyecto principal y luego integran los cambios cuando están listos.
-
-## Conclusión personal  
-Las ramas en Git son fundamentales para trabajar de forma ordenada y segura, especialmente en equipo, ya que permiten evitar errores en la versión principal y facilitan la colaboración.
+### ¿Cuál es la diferencia entre ambos?
+La diferencia principal radica en el alcance del aislamiento y la propiedad del código: una branch es una división dentro del mismo proyecto, mientras que un fork es una copia completa e independiente del proyecto en tu propia cuenta.
