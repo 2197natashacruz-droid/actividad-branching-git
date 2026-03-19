@@ -25,3 +25,11 @@ Te permite experimentar y realizar cambios libremente en un código que no es tu
 
 ### ¿Cuál es la diferencia entre ambos?
 La diferencia principal radica en el alcance del aislamiento y la propiedad del código: una branch es una división dentro del mismo proyecto, mientras que un fork es una copia completa e independiente del proyecto en tu propia cuenta.
+
+## Alumno 3 (Sabrina Jeria)
+## Qué representa la rama main
+Es la rama principal del repositorio, en él está contenido la versión más completa y la más estable del proyecto. Es considerado un punto de referencia para las otras ramas y merge.
+## Por qué suele ser la rama estable:
+Se mantiene estable para que siempre exista una versión que sea funcional en el proyecto. Esto a su vez facilita que otros desarrolladores puedan basar su trabajo en ella sin tener el riesgo de cometer errores.
+##  Qué significa proteger la rama principal
+Significa el configurar reglas para que con ello no se puedan hacer cambios de forma directa sin una revisión previa. Esto nos asegura que solo los cambios que han sido revisados y aprobados se integren.
