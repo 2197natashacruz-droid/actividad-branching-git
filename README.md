@@ -14,7 +14,7 @@
 Practicar branching, fork, pull request y merge.
 
 
-## Alumno 7 (SARY CHARA)
+## Alumno 7 (Sary Chara)
 ## Tema investigado
 Merge y conflictos en Git
 
@@ -41,15 +41,11 @@ Porque Git compara tres versiones: tu rama, la otra rama y el punto donde ambas 
 **Resultado:**
 Git muestra un conflicto:
 ```
-<<<<<<< HEAD
 color: "rojo"
-=======
-color: "azul"
->>>>>>> rama-de-luis
 
 **Solución:**
 Alguien debe editar el archivo, decidir si queda rojo, azul o ambos, borrar los marcadores y hacer commit.
-
+```
 ## Conclusión personal
 Entendí que los conflictos no son errores ni algo malo, sino una protección de Git para que no se pierda trabajo. Lo importante es comunicarse con el equipo, hacer merges seguido (no esperar semanas) y aprender a resolver conflictos con calma. Al final, es parte normal del trabajo en equipo y mientras más práctica, más fácil se vuelve.
 
