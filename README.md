@@ -42,6 +42,9 @@ Porque Git compara tres versiones: tu rama, la otra rama y el punto donde ambas 
 Git muestra un conflicto:
 ```
 color: "rojo"
+=======
+color: "azul"
+
 
 **Solución:**
 Alguien debe editar el archivo, decidir si queda rojo, azul o ambos, borrar los marcadores y hacer commit.
