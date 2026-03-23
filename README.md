@@ -184,7 +184,7 @@ Es una situación donde Git no puede resolver automáticamente las diferencias.
 Porque dos personas modifican las mismas líneas.  
 
 ### 💡 Ejemplo
-```plaintext
+plaintext
 color: "rojo"
 =======
 color: "azul"
