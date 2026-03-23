@@ -201,3 +201,96 @@ Entendí que los conflictos no son errores ni algo malo, sino una protección de
 
 =======
 ___
+
+## Alumno 8 (Alexander Hass)
+## Buenas prácticas al trabajar con ramas
+
+## Definición
+Definiciones, practicas y convenciones relacionada a las ramas de Git usando GitHub.
+
+## Respuestas
+1. ¿Cómo deberían nombrarse las ramas?
+- De forma clara y simple, siguiendo las convenciones establecidas, ya sea convenciones generales o definidas por tu equipo de trabajo.
+
+2. ¿Cómo debería escribirse un commit claro?
+- De forma atomizada con mensajes claros.
+
+3. ¿Qué buenas prácticas ayudan a trabajar mejor en equipo?
+- **1 rama = 1 objetivo**. Evita PR gigantes.
+- **Actualiza antes de empezar** (`pull upstream main` o `pull origin main`).
+- **Commits atómicos** y mensajes claros.
+- **No** mezcles formateos masivos con cambios funcionales.
+- Resuelve **conflictos** localmente y **explica** si tocaste archivos de otros.
+- Después del **merge**, **todos** deben hacer `git pull` (o `fetch` + `merge/rebase`).
+
+## Ejemplo
+
+Ejemplo de un commit de una corrección de un bug. 
+
+fix: corrige cálculo del total en carrito con descuento
+
+- aplica descuento antes de impuestos
+- evita duplicar descuento en recálculos
+- ajusta redondeo a dos decimales
+- actualiza test del flujo de compra
+
+
+## Conclusión personal
+
+Las ramas equivalen a una buena comunicación dentro del proceso de desarrollo, usando branches para no pasar a llevar el trabajo de nuestros compañeros de equipo y Conventional Commits y descripciones claras y atomizadas para mejorar el entendimiento de nuestro trabajo. 
+
+
+## TIMELINE
+
+-- 19 de marzo de 2026
+Se crea la base del proyecto con **Initial commit**, luego se amplía el README con detalles del proyecto, objetivos e información sobre ramas. Después comienzan los aportes colaborativos: se agrega el aporte del alumno 2, se fusiona su PR (#1), luego el del alumno 3 con su PR (#2), y más tarde el del alumno 4 con su PR (#3). El día cierra con ajustes al README para nombres y formato de estudiantes.
+
+-- 20 de marzo de 2026
+El foco pasa a más trabajo colaborativo en ramas: se agrega la investigación del alumno 7, aparecen commits intermedios descriptivos en su rama, se resuelve un conflicto en README.md, se actualiza el archivo y finalmente se fusiona el PR #4. Ese mismo día también se incorpora el aporte de la alumna 5 y además aparece el commit de Antonela, que luego sería integrado a main.
+
+-- 23 de marzo de 2026
+Se fusiona el PR #7 desde la rama de Antonela, y después se hacen dos ajustes finales directamente en main: uno para corregir el nombre de los alumnos y otro para agregar una sección sobre commits en el README.
+
+-- Resumen del flujo del trabajo
+El repositorio muestra un flujo típico de Git colaborativo: creación inicial del proyecto, mejoras progresivas al README, trabajo en feature branches, merges de esas ramas mediante pull requests, algunos merges de main hacia ramas para ponerse al día, resolución de conflictos y retoques finales en la rama principal.
+
+## TIMELINE DE COMMITS — actividad-branching-git
+
+19 mar 2026
+│
+├─ 7f4815d  Initial commit
+├─ 86710aa  Update README with project details and objectives
+├─ 7a8b43a  Expand README with Git branch information
+├─ d1d54e3  feat: agregar aporte del alumno 2
+├─ a11b5b8  Merge branch 'main' into feat-aporte-alumno2
+├─ a412ca7  Merge pull request #1 (aporte alumno 2)
+├─ 99cd0cd  feat: agregar aporte del alumno 3
+├─ c2b8b9a  Merge pull request #2 (aporte alumno 3)
+├─ 59cb64c  feat: agregar aporte del alumno4
+├─ cb6e6ec  Merge branch 'main' into feat-aporte-alumno4
+├─ 178cd48  Merge pull request #3 (aporte alumno 4)
+├─ d08af0e  Se agrego el nombre de los alumnos y separacion
+└─ 5b1c550  Correct formatting for student names in README
+
+20 mar 2026
+│
+├─ 2a71b32  Agrega investigación sobre merge y conflictos
+├─ d5c3f44  Resuelve conflicto en README.md con investigación de Alumno 7
+├─ d83df65  Descripción de lo que hiciste
+├─ 479b85b  Descripción de lo que hiciste
+├─ c3d7634  Update README.md
+├─ 6bd597f  Merge branch 'main' into feature/primer-aporte-alumno7
+├─ 6129090  Merge pull request #4 (aporte alumno 7)
+├─ 5ad9e4f  feat: se agrego aporte del alumnno5
+├─ 02a322e  se agrego el aporte de alumna 5
+└─ 8c81170  mi parte antonela
+
+23 mar 2026
+│
+├─ acd7e81  Merge pull request #7 (rama antonela-munoz)
+├─ 71c1fa9  Se corrigio el nombre de los alumnos
+└─ fce5409  Add section on commits in README
+
+## EN CONCLUSIÓN
+
+Se aprende a trabajar en GIT usando comandos para las funciones mas "simples" de la herramienta, creando un REPO, haciendo forks, branches, y aprendiendo las funciones de Commit, Pull, Push, Pull Request y Merge. El equipo sigue una estructura agile (lead tecnico, PM y colaboradores) para realizar la actividad.
