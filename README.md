@@ -184,9 +184,21 @@ Es una situación donde Git no puede resolver automáticamente las diferencias.
 Porque dos personas modifican las mismas líneas.  
 
 💡Ejemplo
-plaintext
+
+**Situación:**
+- Ana y Luis trabajan en el mismo archivo `config.js`
+- Ana escribe: `color: "rojo"`
+- Luis escribe: `color: "azul"`
+- Ambos hacen commit y luego intentan mergear
+
+**Resultado:**
+Git muestra un conflicto:
+```
 color: "rojo"
+=======
 color: "azul"
+```
+
 
 ## 🧠 Conclusión
 
