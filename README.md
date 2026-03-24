@@ -183,10 +183,9 @@ Es una situación donde Git no puede resolver automáticamente las diferencias.
 **¿Por qué ocurre?**  
 Porque dos personas modifican las mismas líneas.  
 
-### 💡 Ejemplo
+💡Ejemplo
 plaintext
 color: "rojo"
-=======
 color: "azul"
 
 ## 🧠 Conclusión
@@ -235,40 +234,62 @@ Las ramas mejoran la comunicación y organización del equipo.
 
 ## 📊 TIMELINE DE COMMITS — actividad-branching-git
 
-### 📅 19 mar 2026
-│
-├─ 7f4815d Initial commit
-├─ 86710aa Update README with project details and objectives
-├─ 7a8b43a Expand README with Git branch information
-├─ d1d54e3 feat: agregar aporte del alumno 2
-├─ a11b5b8 Merge branch 'main' into feat-aporte-alumno2
-├─ a412ca7 Merge pull request #1 (aporte alumno 2)
-├─ 99cd0cd feat: agregar aporte del alumno 3
-├─ c2b8b9a Merge pull request #2 (aporte alumno 3)
-├─ 59cb64c feat: agregar aporte del alumno4
-├─ cb6e6ec Merge branch 'main' into feat-aporte-alumno4
-├─ 178cd48 Merge pull request #3 (aporte alumno 4)
-├─ d08af0e Se agrego el nombre de los alumnos y separacion
-└─ 5b1c550 Correct formatting for student names in README
+## 📅 19 de marzo de 2026
+├─ 7f4815d  Initial commit
 
-### 📅 20 mar 2026
-│
-├─ 2a71b32 Agrega investigación sobre merge y conflictos
-├─ d5c3f44 Resuelve conflicto en README.md con investigación de Alumno 7
-├─ d83df65 Descripción de lo que hiciste
-├─ 479b85b Descripción de lo que hiciste
-├─ c3d7634 Update README.md
-├─ 6bd597f Merge branch 'main' into feature/primer-aporte-alumno7
-├─ 6129090 Merge pull request #4 (aporte alumno 7)
-├─ 5ad9e4f feat: se agrego aporte del alumnno5
-├─ 02a322e se agrego el aporte de alumna 5
-└─ 8c81170 mi parte antonela
+├─ 86710aa  Update README with project details and objectives
 
-### 📅 23 mar 2026
-│
-├─ acd7e81 Merge pull request #7 (rama antonela-munoz)
-├─ 71c1fa9 Se corrigio el nombre de los alumnos
-└─ fce5409 Add section on commits in README
+├─ 7a8b43a  Expand README with Git branch information
+
+├─ d1d54e3  feat: agregar aporte del alumno 2
+
+├─ a11b5b8  Merge branch 'main' into feat-aporte-alumno2
+
+├─ a412ca7  Merge pull request #1 (aporte alumno 2)
+
+├─ 99cd0cd  feat: agregar aporte del alumno 3
+
+├─ c2b8b9a  Merge pull request #2 (aporte alumno 3)
+
+├─ 59cb64c  feat: agregar aporte del alumno 4
+
+├─ cb6e6ec  Merge branch 'main' into feat-aporte-alumno4
+
+├─ 178cd48  Merge pull request #3 (aporte alumno 4)
+
+├─ d08af0e  Se agregó el nombre de los alumnos y separación
+ Update README.md
+
+├─ 6bd597f  Merge branch 'main' into feature/primer-aporte-alumno7
+
+├─ 6129090  Merge pull request #4 (aporte alumno 7)
+
+├─ 5ad9e4f  feat: se agregó aporte del alumno 5
+
+├─ 02a322e  Se agregó el aporte de la alumna 5
+
+└─ 8c81170  Aporte personal (Antonela)
+
+## 📅 23 de marzo de 2026
+├─ acd7e81  Merge pull request #7 (rama antonela-munoz)
+
+├─ 71c1fa9  Se corrigió el nombre de los alumnos
+
+└─ fce5409  Se agrega sección sobre commits en README
+
+└─ 5b1c550  Corrección de formato en nombres de estudiantes (README)
+
+## 📅 20 de marzo de 2026
+
+├─ 2a71b32  Agrega investigación sobre merge y conflictos
+
+├─ d5c3f44  Resuelve conflicto en README.md (investigación Alumno 7)
+
+├─ d83df65  Descripción de cambios realizados
+
+├─ 479b85b  Descripción de cambios realizados
+
+├─ c3d7634 
 
 
 ---
